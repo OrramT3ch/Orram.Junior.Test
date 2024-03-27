@@ -34,9 +34,8 @@ Faça uma tela , aonde seja possivel o usuário escolher entre 2 moedas. seja Re
 
 e em uma lista vai mostrar todas as variacoes da moeda nos 15 dias , e em um tabela ao lado mostrar as 5 maiores variacoes e qual foi a porcentagem da variacao entre elas 
 
-um mock da tela
+um mock da tela esta como prova.jpg
 
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
 Acessando as APIS 
 
 Lista as moedas 
@@ -56,6 +55,14 @@ Legendas
 | high  | high  |
 | low  | Mínimo  |
 
+Listando os ultimos 15 dias de variacao 
+
+https://economia.awesomeapi.com.br/json/daily/:moeda/:dias
+
+:moedas = codigo entre as duas moedas separado por hifen 
+:dias = quantiadde de dias da listagem da variacao 15, 30, 90
+
+Ao listar as moedas , faça um pqeueno relatorio pode ser na mesma pagina, colocar as 5 maiores variacoes ordenadas por ordem de grandeza , da maior variacao para a menor
 
 
 O que nós esperamos do seu teste
