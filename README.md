@@ -46,13 +46,11 @@ Legendas
 
 | key  | Label |
 | ------------- | ------------- |
-| bid  | bid  |
+| bid  | Compra  |
 | ask  | Venda  |
-| bid  | bid  |
 | varBid  | Variação  |
-| bid  | bid  |
 | pctChange  | Porcentagem de Variação  |
-| high  | high  |
+| high  | Máximo  |
 | low  | Mínimo  |
 
 Listando os ultimos 15 dias de variacao 
